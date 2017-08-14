@@ -1,7 +1,3 @@
-#This is a version slightly modified by myself to keep clear in both yakuake and 
-#tty environment
-#--Modified by realasking
-#
 # Exact Solarized Dark color theme for the color GNU ls utility.
 # Designed for dircolors (GNU coreutils) 5.97
 #
@@ -187,13 +183,13 @@ ORPHAN  05;37;41
 MISSING 05;37;41
 
 # files with execute permission
-EXEC 01;31  # Unix
-.cmd 01;31  # Win
-.exe 01;31  # Win
-.com 01;31  # Win
-.bat 01;31  # Win
-.reg 01;31  # Win
-.app 01;31  # OSX
+EXEC 32  # Unix
+.cmd 32  # Win
+.exe 32  # Win
+.com 32  # Win
+.bat 32  # Win
+.reg 32  # Win
+.app 32  # OSX
 
 #############################################################################
 ### By extension
@@ -205,60 +201,60 @@ EXEC 01;31  # Unix
 ### Text formats
 
 # Text that we can edit with a regular editor
-.txt 32
-.org 32
-.md 32
-.mkd 32
+.txt 37
+.org 37
+.md 37
+.mkd 37
 
 # Source text
-.h 32
-.c 32
-.C 32
-.cc 32
-.cpp 32
-.cxx 32
-.objc 32
+.h 1;37
+.c 1;37
+.C 1;37
+.cc 1;37
+.cpp 1;37
+.cxx 1;37
+.objc 1;37
 .sh 32
 .csh 32
 .zsh 32
 .el 32
-.vim 32
-.java 32
+.vim 1;37
+.java 1;37
 .pl 32
-.pm 32
+.pm 1;37
 .py 32
 .rb 32
-.hs 32
+.hs 1;37
 .php 32
-.htm 32
-.html 32
-.shtml 32
-.erb 32
-.haml 32
-.xml 32
-.rdf 32
-.css 32
-.sass 32
-.scss 32
-.less 32
+.htm 1;37
+.html 1;37
+.shtml 1;37
+.erb 1;37
+.haml 1;37
+.xml 1;37
+.rdf 1;37
+.css 1;37
+.sass 1;37
+.scss 1;37
+.less 1;37
 .js 32
-.coffee 32
-.man 32
-.0 32
-.1 32
-.2 32
-.3 32
-.4 32
-.5 32
-.6 32
-.7 32
-.8 32
-.9 32
-.l 32
-.n 32
-.p 32
-.pod 32
-.tex 32
+.coffee 1;37
+.man 1;37
+.0 1;37
+.1 1;37
+.2 1;37
+.3 1;37
+.4 1;37
+.5 1;37
+.6 1;37
+.7 1;37
+.8 1;37
+.9 1;37
+.l 1;37
+.n 1;37
+.p 1;37
+.pod 1;37
+.tex 1;37
 
 ### Multimedia formats
 
@@ -276,13 +272,13 @@ EXEC 01;31  # Unix
 .mng 1;33
 .pbm 1;33
 .pcx 1;33
-.pdf 1;33
+.pdf 1;31
 .pgm 1;33
 .png 1;33
 .ppm 1;33
 .pps 1;33
 .ppsx 1;33
-.ps 1;33
+.ps 1;31
 .svg 1;33
 .svgz 1;33
 .tga 1;33
@@ -342,17 +338,17 @@ EXEC 01;31  # Unix
 ### Misc
 
 # Binary document formats and multimedia source
-.doc 32
-.docx 32
-.rtf 32
-.dot 32
-.dotx 32
-.xls 32
-.xlsx 32
-.ppt 32
-.pptx 32
-.fla 32
-.psd 32
+.doc 1;31
+.docx 1;31
+.rtf 1;31
+.dot 1;31
+.dotx 1;31
+.xls 1;31
+.xlsx 1;31
+.ppt 1;31
+.pptx 1;31
+.fla 1;31
+.psd 1;31
 
 # Archives, compressed
 .7z   1;35
