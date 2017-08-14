@@ -1,0 +1,1 @@
+[[ $(tty) == \/dev\/tty[0-9]* ]] && $HOME/bin/fbterm-bi /home/realasking/Wallpaper/1742840,106.jpg && exit
