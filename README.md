@@ -16,3 +16,5 @@ freetype2-infinality-ultimate 2.8-2
 lib32-fontconfig-infinality-ultimate 2.12.3-1
 lib32-freetype2-infinality-ultimate 2.8-2
 poppler-qt-lcd
+
+字体调整后效果较好的KDE字体：Noto Sans SC Demilight
