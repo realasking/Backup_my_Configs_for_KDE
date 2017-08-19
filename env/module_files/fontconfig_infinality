@@ -1,0 +1,23 @@
+#%Module1.0
+               ## CJK fix for infinality
+               ##
+               proc ModulesHelp { } {
+                   puts stderr "CJK fix for infinality"
+               }
+
+               module-whatis "CJK fix for infinality"
+               ### Available styles:
+               ### ultimate1 <> extra sharp
+               ### ultimate2 <> sharper & lighter ultimate
+               ### ultimate3 <> ultimate: well balanced (default)
+               ### ultimate4 <> darker & smoother
+               ### ultimate5 <> darkest & heaviest ("MacIsh")
+               ### osx       <> Apple OS X
+               ### windowsxp <> MS Windows XP
+               setenv INFINALITY_FT ultimate4
+               setenv INFINALITY_FT_STEM_ALIGNMENT_STRENGTH 0
+               setenv INFINALITY_FT_STEM_FITTING_STRENGTH 0
+               setenv INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE 0
+               setenv INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT 0
+               #setenv INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH 0
+               setenv INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS false
