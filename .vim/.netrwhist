@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/realasking/文档/工作/课题/Work/MYprogram/041G2K/0.0.1/uv_calc'
+let g:netrw_dirhist_2='/home/realasking/opera_js'
+let g:netrw_dirhist_3='/home/realasking/Downloads/lapack-3.4.0/BLAS'
+let g:netrw_dirhist_4='/home/realasking/Downloads/lapack-3.4.0/BLAS/TESTING'
+let g:netrw_dirhist_5='/home/realasking/.fvwm'
+let g:netrw_dirhist_6='/home/realasking/tmp'
+let g:netrw_dirhist_7='/home/realasking/.pentadactyl/plugins'
